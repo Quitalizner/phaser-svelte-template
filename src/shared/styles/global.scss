@@ -1,0 +1,57 @@
+:root {
+  // --bg-color: #86e3ce;
+  --bg-color: #000000;
+  font-family: Lato;
+}
+
+#app-root {
+  height: 100%;
+  position: relative;
+
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: var(--bg-color);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: 'Salsa';
+  src: url("../../game/src/assets/fonts/Salsa-Regular.ttf") format("truetype");
+}
+
+#font-hack {
+  position: absolute;
+  font-family: 'Salsa';
+  left: -200%;
+}
+
+// @font-face {
+//   font-family: 'Heebo';
+//   // font-style: normal;
+//   // font-weight: 500;
+//   src: url('../../game/src/assets/fonts/heebo-v12-hebrew-600.eot'); /* IE9 Compat Modes */
+//   src: local(''),
+//        url('../../game/src/assets/fonts/heebo-v12-hebrew-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//        url('../../game/src/assets/fonts/heebo-v12-hebrew-600.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../../game/src/assets/fonts/heebo-v12-hebrew-600.woff') format('woff'), /* Modern Browsers */
+//        url('../../game/src/assets/fonts/heebo-v12-hebrew-600.ttf') format('truetype'), /* Safari, Android, iOS */
+//        url('../../game/src/assets/fonts/heebo-v12-hebrew-600.svg#Heebo') format('svg'); /* Legacy iOS */
+// }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../game/src/assets/fonts/Lato-Black.ttf") format("truetype");
+}
+
+#font-hack-1 {
+  position: absolute;
+  font-family: 'Lato';
+  left: -200%;
+}
